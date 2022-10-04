@@ -2,7 +2,7 @@ package api.general;
 
 import java.util.List;
   
-public class Burger implements Product, FoodProduct {
+public class Burger implements FoodProduct {
 
     String name;
     List<Product> items;
@@ -42,4 +42,9 @@ public class Burger implements Product, FoodProduct {
 		// TODO Auto-generated method stub
 		return 0;
 	}
+	
+	public double calories() {
+		return 0.0;
+	}
+	
 }
